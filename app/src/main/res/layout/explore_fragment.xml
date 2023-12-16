@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:text="Riwayat Pendidikan"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="50px"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SD (2010 - 2016)"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="1000px"
+        android:layout_height="wrap_content"
+        android:text="Pada masa SD, saya berpindah sekolah bepindah sekolah, awalnya saya bersekolah di SDN 2 Parigi, namun pada kelas 2 saya berpindah ke SDN Inpres 2 Tanamodindi"
+        android:gravity="start|end"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SMP (2016 - 2018)"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="1000px"
+        android:layout_height="wrap_content"
+        android:text="Saya menempuh bangku pendidikan menengah pertama di SMP Negeri 2 Palu"
+        android:gravity="start|end"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SMA (2019 - 2022)"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="1000px"
+        android:layout_height="wrap_content"
+        android:text="Sama seperti saat SD, pada saat saya masa SMA saya juga berpindah sekolah sekali yakni dari MAN 2 Kota Palu ke SMK Muhammadiyah 1 Palu."
+        android:gravity="start|end"/>
+</LinearLayout>
